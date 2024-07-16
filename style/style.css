@@ -1,0 +1,173 @@
+
+
+*{
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../paisleybg.webp);
+      color: black;
+      margin-top: 0px;
+   
+
+    
+}
+header{
+    
+    margin-top: 5px;
+ display: flex;
+ justify-content: center;
+  
+
+
+
+
+
+
+    height: 50px;
+    border-radius: 81px;
+    backdrop-filter:blur(12px);
+    
+
+    color: aqua;
+}
+
+header ul{
+ display: flex;
+ justify-content: space-around;
+  list-style-type: none;
+  gap: 120px;
+  
+  
+  
+  color: black;
+}
+
+#LoginSec{
+    color: black;
+    height:450px;
+
+    width: 100%;
+    align-content: center; 
+    align-items: center;     
+    justify-content: center;
+    justify-items: center;
+    
+    display: flex;
+   
+          
+}
+.Log-Page{
+    height: 350px;
+    width: 350px;
+    
+
+    
+    backdrop-filter: blur(4px);
+    border: 1px solid green;
+}
+.inputs input{
+    padding: 10px;
+}
+form{
+   
+    justify-content: center;
+    text-align: center;
+    display: block
+}
+
+form .Submitting{
+    background-color: white;
+    border-radius: 24px;
+
+    border: 0;
+    width: 90%;
+    margin-top: 30px;
+    justify-content: center;
+    height: 30px;
+    
+    
+    
+}
+
+form .Submitting1{
+    
+    font-size:1.25em;
+   width: 100%;
+ 
+   color: black;
+   background-color: transparent;
+   border: none;
+   
+
+            
+            
+
+
+            
+   
+}
+
+form ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 30px 20px;
+}
+form a{
+    color:green;
+    text-decoration: none;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+form a:hover , form a:focus{
+    color: black;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.inputs1{
+    width: 90%;
+    border-radius: 12px;
+    height: 30px;
+    
+}
+
+#first{
+    margin-bottom: 10px;
+}
+.New{
+    padding-top: 30px;
+}
+
+footer{
+   
+    backdrop-filter: blur(36px);
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footera{
+    text-decoration: none;
+    color: green;
+
+}
+.footera:hover, .footera:focus{
+    color: black;
+}
+header ul li a{
+text-decoration: none;
+color: green;
+
+}
+header ul li a:hover, header ul li a:focus{
+    background-color: green;
+    color: white;
+ border-radius: 5px;
+}
+
